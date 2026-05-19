@@ -1,0 +1,88 @@
+@font-face {
+  font-family: OPPOSans-R;
+  src: url("https://wolfx.jp/fonts/OPPOSans3.0cn-Regular.woff2") format("woff2");
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: OPPOSans-R, sans-serif;
+  user-select: none;
+}
+
+#mainlocal {
+  width: 300px;
+  height: 90px;
+  background-color: rgba(42, 42, 44, 1);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#shindonum {
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  width: 70px;
+  line-height: 70px;
+  height: 85%;
+  aspect-ratio: 1/1;
+  border: 4px solid #adb8c0;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+}
+
+#leftmsg {
+  margin-left: 3px;
+}
+
+.shindoplus {
+  font-size: 65px;
+  position: relative;
+  top: -16px;
+  left: -12px;
+  line-height: 74px;
+}
+
+.shindominus {
+  font-size: 70px;
+  position: relative;
+  top: -18px;
+  left: -5px;
+  line-height: 74px;
+}
+
+#pgabottom {
+  height: 3px;
+  background-color: rgb(2, 2, 197);
+  position: absolute;
+  bottom: 0px;
+  left: 64px;
+  color: transparent;
+}
+
+#shindobottom {
+  height: 3px;
+  background-color: rgb(2, 2, 197);
+  position: absolute;
+  bottom: 2px;
+  left: 43px;
+  color: transparent;
+}
+
+#maxpgabottom {
+  height: 3px;
+  background-color: rgb(2, 2, 197);
+  position: absolute;
+  bottom: 31px;
+  left: 104px;
+  color: transparent;
+}
