@@ -10,16 +10,6 @@
 - **震动监测** - Raspberry Shake 网络实时震动波形监测
 - **地震直播** - B站实时地震观测直播
 
-## 项目结构
-
-```
-DZYJ/
-├── index.html          # 主入口页面
-├── CEIV2-bousai/       # 实时震度地图模块
-├── CENCEQList/         # 中国地震台网数据列表
-├── LocalShindo/        # 本地震动监测显示
-└── .github/            # GitHub Actions 配置
-```
 
 ## 数据来源
 
