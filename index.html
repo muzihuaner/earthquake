@@ -142,10 +142,37 @@
                     class="hover:text-white flex items-center gap-1.5 transition-colors duration-200">
                     <span>🐺</span> Wolfx速报
                 </a>
-                <a href="https://www.119.gov.cn/kp/zjts/dz/2025/48897.shtml"
-                    target="_blank" class="hover:text-white flex items-center gap-1.5 transition-colors duration-200">
+                <a href="https://www.119.gov.cn/kp/zjts/dz/2025/48897.shtml" target="_blank"
+                    class="hover:text-white flex items-center gap-1.5 transition-colors duration-200">
                     <span>📸</span> 地震预警微信小程序
                 </a>
+
+                <!-- 新增的下拉菜单栏 -->
+                <div class="relative group cursor-pointer py-1">
+                    <div class="hover:text-white flex items-center gap-1 transition-colors duration-200">
+                        <span>🌐</span> 更多站点 <span
+                            class="text-[10px] transition-transform duration-200 group-hover:rotate-180">▼</span>
+                    </div>
+                    <!-- 下拉列表内容 -->
+                    <div
+                        class="absolute left-0 top-full pt-2 w-48 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 z-50">
+                        <div
+                            class="bg-gray-900 border border-gray-800 rounded shadow-xl py-1.5 flex flex-col gap-1 px-1">
+                            <a href="https://kanameishi.lipomoea.tech/" target="_blank"
+                                class="hover:bg-gray-800 hover:text-white text-gray-400 px-3 py-2 rounded transition-colors duration-150 flex items-center gap-2">
+                                <span>🧭</span> 要石 (Kanameishi)
+                            </a>
+                            <a href="https://kotoho7.github.io/scratch-realtime-earthquake-viewer-page/" target="_blank"
+                                class="hover:bg-gray-800 hover:text-white text-gray-400 px-3 py-2 rounded transition-colors duration-150 flex items-center gap-2">
+                                <span>📊</span> kotoho7 实时地震观测
+                            </a>
+                            <a href="https://twearthquake.github.io/" target="_blank"
+                                class="hover:bg-gray-800 hover:text-white text-gray-400 px-3 py-2 rounded transition-colors duration-150 flex items-center gap-2">
+                                <span>⛰️</span> 台湾地震观测台
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </div>
 
@@ -257,7 +284,7 @@
                         项目地址：<a href="https://github.com/muzihuaner/earthquake"
                             target="_blank">https://github.com/muzihuaner/earthquake</a>
 
-                       <p>项目参考 bs.wolfx.jp项目，感谢项目的开发者提供了宝贵的数据和灵感。</p>
+                        <p>项目参考 bs.wolfx.jp项目，感谢项目的开发者提供了宝贵的数据和灵感。</p>
 
                     </div>
                     <p>数据更新频率取决于各数据源的发布频率，通常在地震发生后数秒至数分钟内更新。</p>
