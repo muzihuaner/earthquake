@@ -19,18 +19,14 @@
 - Raspberry Shake 地震监测网络
 - Wolfx 地震速报 API
 
+项目部分内容来自三方网站，感谢三方网站的开发者提供了宝贵的数据和灵感。
+
 ## 技术栈
 
 - HTML5 + CSS3 (Tailwind CSS)
 - Mapbox GL JS
 - Vanilla JavaScript (jQuery)
 - D3.js (数据可视化)
-
-
-
-## 参考项目
-
-- [bs.wolfx.jp](https://bs.wolfx.jp) - Wolfx 地震速报
 
 
 
